@@ -139,6 +139,22 @@ main{
     align-items:center;
     justify-content: center;
 }
+#times{
+    background:URL(../images/dublin-city.webp) no-repeat center center/cover;
+    display:flex;
+    flex-wrap:wrap;
+}
+#times div{
+    color:#fafafa;
+    background-color:rgba(0,0,0,0.6);
+    padding:15px;
+    flex-basis:200px;
+    flex-grow:1;
+    border:2px solid white;
+}
+#times h3{
+    color:#fafafa;
+}
 /* media quiry  tablets and larger (768px and up)*/
 @media screen and (min-width: 768px){
     /* header */
