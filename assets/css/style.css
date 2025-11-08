@@ -85,6 +85,13 @@ main{
 #cover-text >h2, #cover-text >h3{
     color:#ffffff;
 }
+/* Gallery page */
+#photos img{
+    width:100%;
+}
+#photos{
+    line-height:0;
+}
 #social-networks{
     text-align:center;
     padding: 20px 0;
